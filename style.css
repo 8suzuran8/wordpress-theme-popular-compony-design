@@ -68,6 +68,10 @@ Tags:
         border-color: #181866;
 	}
 
+    body > aside h2 {
+		background-color: #181866;
+    }
+
 	body > footer {
 		background-color: #181866;
 		border-color: #181866;
