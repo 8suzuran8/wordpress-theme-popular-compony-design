@@ -113,6 +113,23 @@ Tags:
 		position: relative;
 	}
 
+	body > ol + main + aside {
+		/* use BreadcrumbList */
+		top: 19.75em;
+	}
+
+    body.disabled-use-title > aside {
+        top: 14.6em;
+    }
+
+    body.disabled-use-title > ol + main + aside {
+        top: 25.2em;
+    }
+
+    body > nav ul.sub-menu {
+		background-color: #181866!important;
+    }
+
 	body > aside {
 		top: calc(50vh + 15.6em);
 	}
