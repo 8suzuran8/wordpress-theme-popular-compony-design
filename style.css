@@ -113,6 +113,10 @@ Tags:
 		position: relative;
 	}
 
+	body.disabled-use-title > nav {
+        margin-bottom: 55vh;
+    }
+
 	body > ol + main + aside {
 		/* use BreadcrumbList */
 		top: 19.75em;
@@ -128,6 +132,19 @@ Tags:
 
     body > nav ul.sub-menu {
 		background-color: #181866!important;
+    }
+
+	body > ol + main + aside {
+		/* use BreadcrumbList */
+		top: 19.75em;
+	}
+
+    body.disabled-use-title > aside {
+        top: 40em;
+    }
+
+    body.disabled-use-title > ol + main + aside {
+        top: 43.7em;
     }
 
 	body > aside {
